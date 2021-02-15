@@ -10,8 +10,6 @@
 	<dict>
 		<key>NAME</key>
 		<string>Dashlane</string>
-        <key>USER_AGENT</key>
-        <string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7</string>
 	</dict>
     <key>ParentRecipe</key>
     <string>com.github.joshua-d-miller.download.dashlane</string>
