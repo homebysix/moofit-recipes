@@ -10,8 +10,6 @@
     <dict>
         <key>NAME</key>
         <string>Sound Studio 4</string>
-        <key>SEARCH_URL</key>
-        <string>https://felttip.com/ss/downloads.html</string>
         <key>SEARCH_PATTERN</key>
         <string>(?P&lt;dmg&gt;sound_studio_.*\.zip)</string>
     </dict>
