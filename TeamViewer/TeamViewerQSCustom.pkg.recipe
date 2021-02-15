@@ -14,8 +14,6 @@
 		<string>TeamViewerQS</string>
         <key>ORG_NAME</key>
 		<string></string>
-		<key>DOWNLOAD_URL</key>
-		<string>https://customdesign.teamviewer.com/download/version_13x/%ORG_NAME%/TeamViewerQS.zip</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.5.2</string>

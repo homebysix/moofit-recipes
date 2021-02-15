@@ -10,8 +10,6 @@
         <dict>
             <key>NAME</key>
             <string>Keka</string>
-            <key>DOWNLOAD_URL</key>
-            <string>https://d.keka.io/</string>
         </dict>
         <key>ParentRecipe</key>
         <string>com.github.gerardkok.download.Keka</string>

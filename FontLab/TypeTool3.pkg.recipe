@@ -11,8 +11,6 @@ file from the dmg.</string>
     <dict>
         <key>NAME</key>
         <string>TypeTool 3</string>
-        <key>DOWNLOAD_URL</key>
-        <string>https://old.fontlab.com/downloads/Installers/TT3MacFull.dmg</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.amsysuk-recipes.download.TypeTool3</string>

@@ -10,8 +10,6 @@
 	<dict>
 		<key>NAME</key>
 		<string>OutWit Hub</string>
-		<key>DOWNLOAD_URL</key>
-		<string>https://www.outwit.com/downloads/release/outwit-hub.en-US.mac64.dmg</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>

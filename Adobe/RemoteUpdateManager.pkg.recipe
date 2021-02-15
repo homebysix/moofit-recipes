@@ -11,8 +11,6 @@
     <dict>
         <key>NAME</key>
         <string>Adobe RemoteUpdateManager</string>
-        <key>DOWNLOAD_URL</key>
-        <string>https://deploymenttools-prod.s3.amazonaws.com/RUM/RemoteUpdateManager.dmg</string>
         <key>IDENTIFIER</key>
         <string>com.adobe.RemoteUpdateManager</string>
         <key>VERSION</key>

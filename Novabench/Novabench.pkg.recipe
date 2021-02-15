@@ -10,8 +10,6 @@
     <dict>
         <key>NAME</key>
         <string>Novabench</string>
-        <key>DOWNLOAD_URL</key>
-        <string>https://novabench.com/files/novabench.dmg</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.moofit-recipes.download.Novabench</string>

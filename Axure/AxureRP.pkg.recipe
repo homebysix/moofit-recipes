@@ -8,8 +8,6 @@
     <string>Downloads latest Axure RP disk image.</string>
     <key>Input</key>
     <dict>
-        <key>DOWNLOAD_URL</key>
-        <string>https://axure.cachefly.net/AxureRP-Setup.dmg</string>
         <key>MAJOR_VERSION</key>
         <string>8</string>
         <key>NAME</key>

@@ -10,8 +10,6 @@
     <dict>
         <key>NAME</key>
         <string>Barcode Producer</string>
-        <key>DOWNLOAD_URL</key>
-        <string>https://r.barcodeproducer.com/app/download_mac/</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.mosen.download.BarcodeProducer</string>

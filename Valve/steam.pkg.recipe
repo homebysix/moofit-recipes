@@ -10,8 +10,6 @@
 	<dict>
         <key>NAME</key>
         <string>Steam</string>
-        <key>DOWNLOAD_URL</key>
-        <string>https://steamcdn-a.akamaihd.net/client/installer/steam.dmg</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.1</string>

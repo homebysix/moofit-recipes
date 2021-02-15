@@ -8,8 +8,6 @@
     <string>This package uses the parent KindlePreviewer recipe, grabs the version, and renames accordingly</string>
     <key>Input</key>
     <dict>
-        <key>DOWNLOAD_URL</key>
-        <string>https://kindlepreviewer.s3.amazonaws.com/KindlePreviewer.pkg</string>
         <key>NAME</key>
         <string>Kindle Previewer 3</string>
     </dict>

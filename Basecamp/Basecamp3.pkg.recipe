@@ -8,8 +8,6 @@
 	<string>com.github.moofit-recipes.pkg.Basecamp3</string>
 	<key>Input</key>
 	<dict>
-		<key>DOWNLOAD_URL</key>
-		<string>https://bc3-desktop.s3.amazonaws.com/mac/basecamp3.dmg</string>
 		<key>NAME</key>
 		<string>Basecamp 3</string>
 	</dict>

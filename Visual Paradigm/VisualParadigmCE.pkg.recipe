@@ -10,8 +10,6 @@
 	<dict>
 		<key>NAME</key>
 		<string>Visual Paradigm</string>
-		<key>DOWNLOAD_URL</key>
-		<string>https://www.visual-paradigm.com/download/community.jsp?platform=macosx&amp;arch=jre</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.1</string>
