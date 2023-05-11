@@ -53,7 +53,7 @@
                 <key>source_path</key>
                 <string>%found_filename%/*.app</string>
                 <key>destination_path</key>
-                <string>%pkgroot%/root/private/tmp/%NAME%.app</string>
+                <string>%pkgroot%/root/private/tmp/Mudbox.app</string>
             </dict>
         </dict>
         <dict>

@@ -20,8 +20,8 @@ Process:
   
   - Processor: Copier
     Arguments:
-      destination_path: "%pkgroot%/Applications/%NAME%.app"
-      source_path: "%found_filename%/%NAME%.app"
+      destination_path: "%pkgroot%/Applications/Viber.app"
+      source_path: "%found_filename%/Viber.app"
 
   - Processor: com.github.homebysix.VersionSplitter/VersionSplitter
     Arguments:

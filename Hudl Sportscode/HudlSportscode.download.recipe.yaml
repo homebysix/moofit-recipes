@@ -25,7 +25,7 @@ Process:
 
   - Processor: FileFinder
     Arguments:
-      pattern: "%RECIPE_CACHE_DIR%/%NAME%/**/%NAME%.app"
+      pattern: "%RECIPE_CACHE_DIR%/%NAME%/**/Hudl Sportscode.app"
 
   - Processor: CodeSignatureVerifier
     Arguments:
