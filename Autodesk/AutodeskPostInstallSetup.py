@@ -1,4 +1,5 @@
 #!/usr/local/autopkg/python
+# -*- coding: utf-8 -*-
 
 # Author:   Stephen Bygrave - Moof IT
 # Name:     AutodeskPostInstallSetup.sh

@@ -1,4 +1,5 @@
 #!/usr/local/autopkg/python
+# -*- coding: utf-8 -*-
 #
 #  Copyright (c) 2015, Facebook, Inc.
 #  All rights reserved.
