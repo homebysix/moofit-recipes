@@ -16,7 +16,7 @@
     <key>ParentRecipe</key>
     <string>com.github.mosen.download.PyCharmPro</string>
     <key>MinimumVersion</key>
-    <string>0.2.0</string>
+    <string>1.0</string>
     <key>Process</key>
     <array>
         <dict>
