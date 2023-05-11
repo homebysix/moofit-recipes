@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest CtrlPrint Transfer Manager disk image.</string>
     <key>Identifier</key>
-    <string>CtrlPrintTransferManager.download.recipe</string>
+    <string>com.github.moofit-recipes.download.CtrlPrintTransferManager</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Downloads latest CtrlPrint Transfer Manager disk image and builds a package.</string>
     <key>Identifier</key>
-    <string>CtrlPrintTransferManager.pkg.recipe</string>
+    <string>com.github.moofit-recipes.pkg.CtrlPrintTransferManager</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>CtrlPrint Transfer Manager</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>CtrlPrintTransferManager.download.recipe</string>
+    <string>com.github.moofit-recipes.download.CtrlPrintTransferManager</string>
     <key>Process</key>
     <array>
         <dict>
