@@ -20,7 +20,7 @@ Process:
   - Processor: CodeSignatureVerifier
     Arguments:
       input_path: "%pathname%"
-      expected_authority_names: 
+      expected_authority_names:
        - "Developer ID Installer: ExprsVPN LLC (VMES9GFUQJ)"
        - Developer ID Certification Authority
        - Apple Root CA

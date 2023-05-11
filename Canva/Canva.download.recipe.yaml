@@ -4,7 +4,7 @@ Input:
   NAME: Canva
   AMD64_URL: https://www.canva.com/download/mac/intel/canva-desktop/
   ARM64_URL: https://www.canva.com/download/mac/arm/canva-desktop/
-  
+
 MinimumVersion: '2.3'
 Process:
 
@@ -37,4 +37,4 @@ Process:
       info_path: "%pathname%/Canva.app/Contents/Info.plist"
       plist_keys:
         CFBundleShortVersionString: version
-        CFBundleIdentifier: bundleid 
+        CFBundleIdentifier: bundleid

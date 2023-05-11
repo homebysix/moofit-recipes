@@ -13,11 +13,11 @@ Process:
       pkgdirs:
         Applications: "0775"
       pkgroot: "%RECIPE_CACHE_DIR%/root"
-  
+
   - Processor: FileFinder
     Arguments:
       pattern: "%RECIPE_CACHE_DIR%/%NAME%/%NAME%.dmg"
-  
+
   - Processor: Copier
     Arguments:
       destination_path: "%pkgroot%/Applications/Final Draft 12.app"

@@ -105,10 +105,10 @@ then
     EXIT_CODE=0
     writelog "Installing all pkgs within %NAME%.app...."
 
-    # It's worthwhile noting that the following lines are a workaround to two issues with Autodesk's non-native PKG 
-    # installers; they don't work when a user isn't logged into the Mac, and they don't work when bundled inside a pkg 
+    # It's worthwhile noting that the following lines are a workaround to two issues with Autodesk's non-native PKG
+    # installers; they don't work when a user isn't logged into the Mac, and they don't work when bundled inside a pkg
     # with a postinstall script. Therefore, we need to manually install all pkgs present inside the Setup.app bundle,
-    # with the first pkg always being the AdskLicensing-*.pkg. 
+    # with the first pkg always being the AdskLicensing-*.pkg.
     #
     # Le sigh.
 

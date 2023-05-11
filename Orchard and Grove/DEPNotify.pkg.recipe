@@ -89,7 +89,7 @@
                 <key>file_content</key>
                 <string>#!/bin/bash
 
-# Setup "pathToPlistFile" variable in DEPNotify configuration, pointing to 
+# Setup "pathToPlistFile" variable in DEPNotify configuration, pointing to
 # "/Library/Application Support/DEPNotify/DEPNotify.plist" for the root user
 /usr/bin/defaults write menu.nomad.DEPNotify pathToPlistFile "/Library/Application Support/DEPNotify/DEPNotify.plist"</string>
                 <key>file_mode</key>

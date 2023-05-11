@@ -5,9 +5,9 @@
     <key>Identifier</key>
     <string>com.github.amsysuk-recipes.pkg.Isadora</string>
     <key>Description</key>
-    <string>Downloads the latest version of Isadora using the parent recipe com.github.amsysuk.download.Isadora and 
+    <string>Downloads the latest version of Isadora using the parent recipe com.github.amsysuk.download.Isadora and
         turns this into a package installer.
-        
+
         As two variants of Isadora are available, the input key VARIANT should be set to either `usb` or `std`</string>
     <key>Input</key>
     <dict>

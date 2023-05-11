@@ -1,6 +1,6 @@
 ![Logo](https://x1llu7x4a4-flywheel.netdna-ssl.com/wp-content/themes/moof/images/logo.svg)
 
-# Moof IT AutoPkg Recipes 
+# Moof IT AutoPkg Recipes
 
 ## Table of Contents
 
@@ -8,7 +8,7 @@
 - [How to contribute](#how-to-contribute)
 - [Support](#support)
 - [License](#license)
-  
+
 ## Purpose
 
 This repository contains Moof IT's AutoPkg recipes and processors for public use.

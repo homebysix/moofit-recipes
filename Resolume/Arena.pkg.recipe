@@ -5,7 +5,7 @@
     <key>Identifier</key>
     <string>com.github.moofit-recipes.pkg.Arena</string>
     <key>Description</key>
-    <string>Downloads the latest version of Resolume Arena using the parent recipe 
+    <string>Downloads the latest version of Resolume Arena using the parent recipe
     com.github.dataJAR-recipes.download.Resolume Arena and turns it into a package
     </string>
     <key>Input</key>

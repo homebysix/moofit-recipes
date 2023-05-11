@@ -8,7 +8,7 @@
 - [Support](#support)
 - [Credit](#credit)
 - [License](#license)
-  
+
 ## Purpose
 
 These Autodesk recipes serve the purpose of automating the creation of packages that can easily be deployed using an MDM of choice. They currently work with (and have been tested with) the following:
@@ -28,7 +28,7 @@ These Autodesk recipes serve the purpose of automating the creation of packages 
     4. `SERIAL_NUMBER` should match the serial number of the product, in the format `XXX-XXXXXXXX`.
     5. `LIC_SERVER` The IP address/hostname/FQDN and port of the licensing server. If left blank, the override assumes the product will be licensed as standalone.
     6. `PATH_TO_DMG` Path to the folder containing the DMG file, _not_ the DMG file itself.
-3. Run the override 
+3. Run the override
 
 ## How to contribute
 

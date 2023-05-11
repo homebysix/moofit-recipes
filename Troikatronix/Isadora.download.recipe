@@ -6,7 +6,7 @@
 	<string>com.github.amsysuk-recipes.download.Isadora</string>
 	<key>Description</key>
 	<string>Downloads the latest version of Isadora
-	        
+
         As two variants of Isadora are available, the input key VARIANT should be set to either `usb` or `std`</string>
 	<key>Input</key>
 	<dict>

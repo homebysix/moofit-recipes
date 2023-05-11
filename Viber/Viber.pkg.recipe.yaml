@@ -17,7 +17,7 @@ Process:
   - Processor: FileFinder
     Arguments:
       pattern: "%RECIPE_CACHE_DIR%/downloads/%NAME%.dmg"
-  
+
   - Processor: Copier
     Arguments:
       destination_path: "%pkgroot%/Applications/Viber.app"
@@ -40,4 +40,3 @@ Process:
         pkgname: "%NAME%-%version%"
         pkgroot: "%RECIPE_CACHE_DIR%/root"
         version: "%version%"
-     

@@ -42,7 +42,7 @@ Process:
   - Processor: CodeSignatureVerifier
     Arguments:
       input_path: "%RECIPE_CACHE_DIR%/%NAME%.pkg"
-      expected_authority_names: 
+      expected_authority_names:
        - "Developer ID Installer: FREEDMAN ELECTRONICS PTY LTD (Z9T72PWTJA)"
        - Developer ID Certification Authority
        - Apple Root CA

@@ -20,7 +20,7 @@ Process:
   - Processor: CodeSignatureVerifier
     Arguments:
       input_path: "%pathname%"
-      expected_authority_names: 
+      expected_authority_names:
        - "Developer ID Installer: LogMeIn, Inc. (GFNFVT632V)"
        - Developer ID Certification Authority
        - Apple Root CA

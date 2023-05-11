@@ -5,7 +5,7 @@
     <key>Identifier</key>
     <string>com.github.moofit-recipes.pkg.Xcode</string>
     <key>Description</key>
-    <string>Creates an installer package from a supplied .xip file downloaded using "Xcode.download.recipe" and 
+    <string>Creates an installer package from a supplied .xip file downloaded using "Xcode.download.recipe" and
         extracted using "Xcode.extract.recipe" from "nmcspadden-recipes".</string>
     <key>Input</key>
     <dict>

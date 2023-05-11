@@ -8,12 +8,12 @@ Process:
 - Processor: PlistReader
   Arguments:
     info_path: "%RECIPE_CACHE_DIR%/%NAME%/Applications/Glyphs 3.app/Contents/Info.plist"
-    plist_keys: 
+    plist_keys:
       CFBundleIdentifier: bundleid
 - Processor: PkgRootCreator
   Arguments:
     pkgroot: "%RECIPE_CACHE_DIR%/package/%NAME%"
-    pkgdirs: 
+    pkgdirs:
       Applications: "0775"
 - Processor: Copier
   Arguments:
