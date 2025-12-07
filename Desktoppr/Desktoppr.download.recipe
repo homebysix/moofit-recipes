@@ -22,6 +22,8 @@
             <string>Get the latest release package.</string>
             <key>Arguments</key>
             <dict>
+                <key>asset_regex</key>
+                <string>.*\.pkg$</string>
                 <key>github_repo</key>
                 <string>scriptingosx/desktoppr</string>
             </dict>
@@ -32,11 +34,29 @@
             <key>Comment</key>
             <string>Download latest Desktoppr package.</string>
             <key>Arguments</key>
-            <dict />
+            <dict>
+                <key>filename</key>
+                <string>%NAME%-%version%.pkg</string>
+            </dict>
         </dict>
         <dict>
             <key>Processor</key>
             <string>EndOfCheckPhase</string>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>CodeSignatureVerifier</string>
+            <key>Arguments</key>
+            <dict>
+                <key>expected_authority_names</key>
+                <array>
+                    <string>Developer ID Installer: Armin Briegel (JME5BW3F3R)</string>
+                    <string>Developer ID Certification Authority</string>
+                    <string>Apple Root CA</string>
+                </array>
+                <key>input_path</key>
+                <string>%pathname%</string>
+            </dict>
         </dict>
     </array>
 </dict>

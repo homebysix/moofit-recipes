@@ -19,6 +19,15 @@
 	<array>
         <dict>
             <key>Processor</key>
+            <string>DeprecationWarning</string>
+            <key>Arguments</key>
+            <dict>
+                <key>warning_message</key>
+                <string>This recipe is no longer needed and has been deprecated. Please switch to com.github.moofit-recipes.download.Desktoppr which now has the same result.</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
             <string>PkgCopier</string>
             <key>Arguments</key>
             <dict>
