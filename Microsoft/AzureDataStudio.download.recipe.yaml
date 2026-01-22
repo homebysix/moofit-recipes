@@ -24,6 +24,8 @@ Process:
       url: "%DOWNLOAD_URL%"
       filename: "%NAME%.zip"
 
+  - Processor: EndOfCheckPhase
+
   - Processor: Unarchiver
     Arguments:
       archive_path: "%pathname%"
