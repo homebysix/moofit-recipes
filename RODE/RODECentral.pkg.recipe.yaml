@@ -4,7 +4,7 @@ ParentRecipe: com.github.moofit-recipes.download.RODECentral
 MinimumVersion: "2.3"
 Input:
   NAME: RODE Central
-  DOWNLOAD_URL: https://edge.rode.com/zip/page/1873/modules/4782/rodecentral_installation_file_mac.zip
+  DOWNLOAD_URL: https://update.rode.com/central/RODE_Central_MACOS.zip
 Process:
   - Processor: FlatPkgUnpacker
     Arguments:
@@ -14,7 +14,7 @@ Process:
   - Processor: PkgPayloadUnpacker
     Arguments:
       destination_path: "%RECIPE_CACHE_DIR%/unpack"
-      pkg_payload_path: "%RECIPE_CACHE_DIR%/unpack/RodeCentral.pkg/Payload"
+      pkg_payload_path: "%RECIPE_CACHE_DIR%/unpack/RODE Central Installer.pkg/Payload"
   - Processor: Versioner
     Arguments:
       input_plist_path: "%RECIPE_CACHE_DIR%/unpack/Applications/%NAME%.app/Contents/Info.plist"
