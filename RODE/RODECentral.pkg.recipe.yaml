@@ -1,10 +1,10 @@
-Description: Downloads the current version of RODE Central as a package.
-Identifier: com.github.moofit-recipes.pkg.RODECentral
-ParentRecipe: com.github.moofit-recipes.download.RODECentral
+Description: Downloads the current version of RODE Connect as a package.
+Identifier: com.github.moofit-recipes.pkg.RODEConnect
+ParentRecipe: com.github.moofit-recipes.download.RODEConnect
 MinimumVersion: "2.3"
 Input:
-  NAME: RODE Central
-  DOWNLOAD_URL: https://update.rode.com/central/RODE_Central_MACOS.zip
+  NAME: RODE Connect
+  DOWNLOAD_URL: "https://rode.com/en/software/rodeconnect"
 Process:
   - Processor: FlatPkgUnpacker
     Arguments:
@@ -14,7 +14,7 @@ Process:
   - Processor: PkgPayloadUnpacker
     Arguments:
       destination_path: "%RECIPE_CACHE_DIR%/unpack"
-      pkg_payload_path: "%RECIPE_CACHE_DIR%/unpack/RODE Central Installer.pkg/Payload"
+      pkg_payload_path: "%RECIPE_CACHE_DIR%/unpack/RodeConnect.pkg/Payload"
   - Processor: Versioner
     Arguments:
       input_plist_path: "%RECIPE_CACHE_DIR%/unpack/Applications/%NAME%.app/Contents/Info.plist"
@@ -23,3 +23,4 @@ Process:
     Arguments:
       pkg_path: "%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg"
       source_pkg: "%RECIPE_CACHE_DIR%/%NAME%.pkg"
+      
